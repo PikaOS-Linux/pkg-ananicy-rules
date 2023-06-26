@@ -10,6 +10,9 @@ git clone https://github.com/CachyOS/ananicy-rules.git ./etc/ananicy.d
 apt-get build-dep ./ -y
 
 # Build package
+dh_make --createorig
+
+# Build package
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
