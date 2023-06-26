@@ -3,9 +3,8 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-mkdir -p ./src-pkg-name
-cp -rvf ./debian ./src-pkg-name/
-cd ./src-pkg-name/
+cd ananicy-rules
+git clone https://github.com/CachyOS/ananicy-rules.git ./etc/ananicy.d
 
 # Get build deps
 apt-get build-dep ./ -y

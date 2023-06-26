@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+systemctl enable ananicy-cpp --now
+systemctl start ananicy-cpp

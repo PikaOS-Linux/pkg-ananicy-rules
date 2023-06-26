@@ -1,0 +1,13 @@
+Source: ananicy-rules
+Section: main
+Priority: optional
+Maintainer: ferrreo <harderthanfire@gmail.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: ananicy-rules
+Architecture: linux-any
+Depends: ${misc:Depends}, ananicy-cpp
+Provides: ananicy-rules
+Description: a base set of ananicy-rules
