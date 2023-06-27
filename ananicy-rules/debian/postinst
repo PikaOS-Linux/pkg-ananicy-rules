@@ -2,5 +2,4 @@
 
 set -e
 
-systemctl enable ananicy-cpp --now
-systemctl start ananicy-cpp
+systemctl enable ananicy-cpp --now || true

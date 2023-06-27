@@ -8,6 +8,7 @@ Rules-Requires-Root: no
 
 Package: ananicy-rules
 Architecture: linux-any
+Pre-Depends: ananicy-cpp
 Depends: ${misc:Depends}, ananicy-cpp
 Provides: ananicy-rules
 Description: a base set of ananicy-rules
