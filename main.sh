@@ -12,9 +12,6 @@ mv -f ./ananicy.conf ./etc/ananicy.d/ananicy.conf
 apt-get build-dep ./ -y
 
 # Build package
-dh_make --createorig
-
-# Build package
 dpkg-buildpackage --no-sign
 
 # Move the debs to output

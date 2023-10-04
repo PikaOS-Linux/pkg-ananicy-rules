@@ -1,3 +1,9 @@
+ananicy-rules (20231004-100pika1) pikauwu; urgency=medium
+
+  * Update to pikauwu
+
+ -- ferreo <harderthanfire@gmail.com>  Wed, 18 Jan 2023 21:48:14 +0000
+
 ananicy-rules (1.0.1-99pika3) lunar; urgency=medium
 
   * Fix issue with hyprland and realtime conflicting with this
